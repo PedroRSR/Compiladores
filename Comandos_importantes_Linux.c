@@ -45,6 +45,8 @@ git branch <nome-da-branch> = Cria uma nova branch
 git branch -d <nome-da-branch>  = Remove uma branch local (se já foi mesclada)
 git branch -D <nome-da-branch>  = Força a remoção de uma branch local
 git checkout = Muda para uma branch específica
-git revert  = Cria um commit que desfaz as alterações de um commit anterior
+git revert <hash_do_commit> = Cria um commit que desfaz as alterações de um commit anterior
+git reset <hash_do_commit> = Desfaz os commits até o commit especificado
+git reset --hard <hash_do_commit> = Desfaz os commits e as alterações no diretório de trabalho
 git push origin --delete = Remove uma branch do repositório remoto
 */
