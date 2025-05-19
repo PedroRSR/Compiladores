@@ -10,6 +10,7 @@ mkdir       = Cria um novo diretório
 touch       = Cria um novo arquivo vazio
 rm          = Remove arquivos ou diretórios (cuidado!)
 rm -r       = Remove diretórios e seus conteúdos
+rm -rf      = Remove diretórios e seus conteúdos de forma recursiva e forçada (cuidado!)
 rmdir       = Remove diretórios vazios
 mv <origem> <destino> = Move um arquivo ou diretório
 mv <nome_antigo> <nome_novo> = Renoeia um arquivo ou diretório
