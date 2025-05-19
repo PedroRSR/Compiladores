@@ -1,4 +1,3 @@
-/*
 ls          = Lista arquivos e pastas no diretório atual
 cd <diretório> = Muda para o diretório especificado
 cd ..       = Volta um nível no diretório
@@ -49,4 +48,3 @@ git revert <hash_do_commit> = Cria um commit que desfaz as alterações de um co
 git reset <hash_do_commit> = Desfaz os commits até o commit especificado
 git reset --hard <hash_do_commit> = Desfaz os commits e as alterações no diretório de trabalho
 git push origin --delete = Remove uma branch do repositório remoto
-*/
