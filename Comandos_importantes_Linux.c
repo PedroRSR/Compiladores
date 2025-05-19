@@ -1,3 +1,4 @@
+/*
 ls          = Lista arquivos e pastas no diretório atual
 cd <diretório> = Muda para o diretório especificado
 cd ..       = Volta um nível no diretório
@@ -30,9 +31,6 @@ git log     = Mostra o histórico de commits
 git log --oneline = Mostra o histórico de commits em uma linha
 git diff    = Mostra as diferenças entre o repositório local e o remoto
 git diff <commit1> <commit2> = Mostra as diferenças entre dois commits
-code        = Abre arquivos ou pastas no Visual Studio Code
-code .      = Abre o diretório atual no Visual Studio Code
-code <arquivo> = Abre um arquivo específico no Visual Studio Code
 git config --global user.name "<seu-nome>" = Configura o nome do usuário
 git config --global user.email "<seu-email>" = Configura o e-mail do usuário
 git config --global core.editor "<editor>" = Configura o editor padrão do Git
@@ -48,3 +46,8 @@ git revert <hash_do_commit> = Cria um commit que desfaz as alterações de um co
 git reset <hash_do_commit> = Desfaz os commits até o commit especificado
 git reset --hard <hash_do_commit> = Desfaz os commits e as alterações no diretório de trabalho
 git push origin --delete = Remove uma branch do repositório remoto
+git merge <nome-da-branch> = Mescla uma branch com a branch atual
+code        = Abre arquivos ou pastas no Visual Studio Code
+code .      = Abre o diretório atual no Visual Studio Code
+code <arquivo> = Abre um arquivo específico no Visual Studio Code
+*/
